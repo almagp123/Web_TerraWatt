@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Encabezado */
+
+.encabezado {
+    /* position: absolute; */
+
+    background-color: #105F75;
+    min-height: 50vh;
+    background-image: url('../images/Vector_pag_principal.svg');
+    background-repeat: no-repeat;
+    background-position: right 10% bottom 70%;
+    background-size: 40%;
+    padding-bottom: 9rem;
+    width: 100%;
+
+}
+
+.encabezado-contenido {
+
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.encabezado-contenido h1 {
+    font-size: 40px;
+    color: rgb(252, 252, 252);
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.encabezado-contenido a {
+    margin-top: 2vw;
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: bisque;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+.encabezado-contenido a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.ola-diseno-vector {
+    position: absolute;
+    min-height: 40vh;
+    width: 100%;
+}
+
+.rating-encabezado {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.rating-encabezado .estrellas {
+    display: flex;
+    margin-right: 10px;
+}
+
+.estrellas i {
+    color: #FFD700;
+    font-size: 1.5rem;
+    margin-right: 2px;
+}
+li, span{
+    color: white; 
+}
+
+/* Introducción */
+
+.introduccion {
+    margin-top: 5%;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.introduccion h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.explicacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+
+.ajuste-vector {
+    width: 40%;
+    max-width: 300px;
+    height: auto;
+}
+
+.texto-explicacion {
+    width: 55%;
+    text-align: left;
+}
+
+.texto-explicacion h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.texto-explicacion p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* Reseñas */
+
+.reseñas {
+    background-color: #e0f4ff;
+    padding: 40px;
+    text-align: center;
+}
+
+.reseñas-encabezado {
+    margin-bottom: 20px;
+}
+
+.reseñas-encabezado h2 {
+    font-size: 24px;
+    color: #00334e;
+}
+
+.reseñas-rating {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reseñas-rating .rating-num {
+    font-weight: bold;
+    color: #00334e;
+}
+
+.reseñas-rating .estrellas {
+    /* color: #ffa500; */
+    color: #C70000;
+    font-size: 20px;
+}
+
+.slides-reseñas-conjunto {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+    scrollbar-width: none;
+}
+
+.reseñas-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    gap: 20px;
+    padding: 20px;
+}
+
+.reseñas-individuales {
+    min-width: 415px;
+    max-width: 416px;
+    margin: 0 auto;
+    background: #e6f7ff;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.reseñas-individuales h3 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.reseña p {
+    font-size: 16px;
+    color: #00334e;
+    margin-bottom: 10px;
+}
+
+.reseña-rating {
+    font-size: 20px;
+    color: #C70000;
+}
+
+.navegacion-botones-reseñas {
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.reseñas__control {
+    background-color: #00334e;
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    border-radius: 20%;
+    font-size: 24px;
+    margin: 0 15px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    align-self: center;
+}
+
+.reseñas__control:hover {
+    background-color: #f0f0f0;
+    color: #00334e;
+}
+
+.reseñas__flecha {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.slides-reseñas-conjunto::-webkit-scrollbar {
+    display: none;
+}
